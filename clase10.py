@@ -25,13 +25,9 @@ mix.append(["a", "b"])
 print(mix)
 mix.insert(1,["a", "b"])
 print(mix)
-
 print(mix.index(["a", "b"]))
-
 numbers = [100, 200.0, 3, 4, 5]
-
 print("Mayor:", max(numbers))
 print("Mayor:", min(numbers))
-
 del numbers[-1]
 print(numbers)
